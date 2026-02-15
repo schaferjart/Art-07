@@ -1,6 +1,7 @@
 import bpy
 import random
 import math
+from mathutils import Vector
 
 # Clear scene
 bpy.ops.object.select_all(action='SELECT')
